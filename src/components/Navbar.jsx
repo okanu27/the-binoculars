@@ -1,5 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import heroImage from "../assets/binoculars.webp";
+
 
 const Navbar = () => {
 
@@ -22,7 +24,7 @@ const Navbar = () => {
                 </p>
 
                 <h1 className="mt-3 text-4xl font-black tracking-[-0.02em] md:text-6xl">
-                    THE BINOCULARS
+                     THE BINOCULARS
                 </h1>
             </div>
 

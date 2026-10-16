@@ -26,8 +26,7 @@ export const articles = [
     "For governments and businesses, the report underscores the importance of managing public finances, monitoring financial risks and preparing for an economic environment in which growth opportunities and vulnerabilities vary considerably across regions."
   ],
 
-  image:
-    "https://images.unsplash.com/photo-1521295121783-8a321d551ad2",
+  image: "https://global.ariseplay.com/amg/www.arise.tv/uploads/2026/02/IMF.webp",
 
   author: "The Binoculars World Desk",
 
