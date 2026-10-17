@@ -2,6 +2,7 @@ import React, { useEffect} from "react";
 import {supabase} from "../lib/supabase";
 import { Link, useParams } from "react-router-dom";
 import { articles } from "../data/articles";
+import { Helmet } from "react-helmet-async";
 
 const Article = () => {
     const { slug } = useParams()
@@ -74,6 +75,35 @@ const Article = () => {
     }
 
     return (
+
+        <>
+        <Helmet>
+            <title>{article.title} | The Binoculars</title>
+
+            <meta name="description" content={article.excerpt} />
+
+            {/* Canonical URL */}
+            <link rel="canonical" href={`https://thebinoculars.vercel.app/articles/${article.slug}`} />
+
+            {/* Open Graph Meta Tags */}
+
+            <meta property="og:title" content={article.title} />
+            <meta property="og:description" content={article.excerpt} />
+            <meta property="og:image" content={article.image} />
+            <meta property="og:type" content="article" />
+            <meta property="og:url" content={`https://thebinoculars.vercel.app/articles/${article.slug}`} />
+
+            <meta property="og:site_name" content="The Binoculars" />
+            <meta property="article:published_time" content={article.date} />
+            <meta property="article:author" content={article.author} />
+            
+            {/* Twitter Card Meta Tags */}
+            <meta name="twitter:card" content="summary_large_image" />
+            <meta name="twitter:title" content={article.title} />
+            <meta name="twitter:description" content={article.excerpt} />
+            <meta name="twitter:image" content={article.image} />
+        </Helmet>
+
         <main className="min-h-screen bg-[#111111] px-6 py-10">
         <article className="mx-auto max-w-4xl">
 
@@ -208,6 +238,7 @@ const Article = () => {
 
     </article>
   </main>
+  </>
 )
 }
 

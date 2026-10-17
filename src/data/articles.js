@@ -113,7 +113,7 @@ export const articles = [
     "Although India's economy continues to grow rapidly, the combination of public protests, international trade tensions and currency pressure presents a complicated test for Modi's administration. The political consequences will depend partly on how the government responds to these competing pressures."
   ],
   image:
-    "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620",
+    "https://global.ariseplay.com/amg/www.arise.tv/uploads/2024/05/Narendra-Modi.png",
   author: "The Binoculars Politics Desk",
   date: "October 10, 2026",
   readTime: "3 min read",
@@ -124,34 +124,51 @@ export const articles = [
     }
   ]
 },
-  {
-    id: 5,
-    slug: "new-policy-debates-in-focus",
-    category: "Politics",
-    title:
-      "New policy debates put important issues in the spotlight",
-    excerpt:
-      "Decision-makers and communities continue to debate policies affecting everyday life.",
-    image:
-      "https://images.unsplash.com/photo-1541872705-1f73c6400ec9",
-    author: "The Binoculars Politics Desk",
-    date: "September 29, 2026",
-    readTime: "6 min read",
-  },
-  {
-    id: 6,
-    slug: "diplomacy-and-global-affairs",
-    category: "Politics",
-    title:
-      "Diplomacy and international relations remain closely watched",
-    excerpt:
-      "Countries continue diplomatic discussions as international relationships evolve.",
-    image:
-      "https://images.unsplash.com/photo-1521295121783-8a321d551ad2",
-    author: "The Binoculars Politics Desk",
-    date: "September 19, 2026",
-    readTime: "4 min read",
-  },
+{
+  id: 5,
+  slug: "trump-republican-midterm-election-concerns-2026",
+  category: "Politics",
+  title: "Trump Faces Growing Republican Concerns Ahead of Midterm Elections",
+  excerpt: "Donald Trump is facing internal Republican tensions as party strategists confront concerns about campaign spending, candidate selection and the party's prospects in the 2026 midterm elections.",
+  content: [
+    "President Donald Trump is facing growing pressure over Republican electoral prospects as the United States approaches its 2026 midterm elections. A Reuters report published on October 17 describes disagreements within the president's political operation over campaign strategy, spending and candidate selection.",
+    "The report says Trump's political allies have invested heavily in efforts to strengthen Republican candidates, but concerns remain about polling performance and the effectiveness of redistricting efforts. Economic pressures and voter concerns about living costs are also creating challenges for the party.",
+    "Trump has urged supporters to treat the midterms as a major priority despite his name not appearing on the ballot. The election outcome remains uncertain, and current political tensions do not by themselves determine which party will win control of Congress."
+  ],
+  image: "https://image.cnbcfm.com/api/v1/image/108406326-1791942322841-gettyimages-2300085207-aw1a4353_ezwcntja.jpeg?v=1792169878&w=1858&h=1045&ffmt=webp&vtcrop=y",
+  author: "The Binoculars Politics Desk",
+  date: "October 17, 2026",
+  readTime: "3 min read",
+  sources: [
+    {
+      name: "Reuters",
+      url: "https://www.reuters.com/world/us/trump-faults-aides-republican-midterm-prospects-dim-2026-10-17/"
+    }
+  ]
+}, 
+{
+  id: 6,
+  slug: "putin-russia-ukraine-border-security-zone-2026",
+  category: "Politics",
+  title: "Putin Announces Plan for Security Zone Along Russia–Ukraine Border",
+  excerpt: "Russian President Vladimir Putin says Moscow intends to establish a security zone inside Ukraine near the Russian border, adding another dimension to the ongoing war.",
+  content: [
+    "Russian President Vladimir Putin has announced plans to establish what he described as a security zone inside Ukrainian territory along the Russian border. Reuters reported the announcement on October 16, as fighting and diplomatic tensions between Russia and Ukraine continued.",
+    "Putin said Russian forces had been tasked with pushing Ukrainian troops away from border areas and creating the zone to protect Russian regions. According to the report, the proposed area includes parts of Ukraine's Sumy and Kharkiv regions.",
+    "The Kremlin has described the planned zone as a security measure, while the announcement signals Russia's intention to maintain military pressure near the border. The precise depth and final boundaries of the proposed zone were not fully specified in the report.",
+    "The announcement does not represent a peace agreement or a confirmed end to hostilities. The military and diplomatic consequences will depend on developments on the ground and any subsequent negotiations."
+  ],
+  image: "https://web-cdnprod.aa.com.tr/uploads/Contents/2026/10/16/thumbs_b_c_8a3ab9e5dacbbb41b4f98075986a694a.jpg",
+  author: "The Binoculars World Politics Desk",
+  date: "October 16, 2026",
+  readTime: "3 min read",
+  sources: [
+    {
+      name: "Reuters",
+      url: "https://www.reuters.com/world/putin-says-russia-is-building-non-negotiable-security-zone-ukraine-along-border-2026-10-16/"
+    }
+  ]
+},
 
   // BUSINESS
 {
@@ -338,7 +355,7 @@ export const articles = [
     "For Tottenham, the late goal offered a possible foundation for improvement. For United, failing to finish the game against ten opponents highlighted the team's continuing difficulties in turning promising situations into wins."
   ],
   image:
-    "https://images.unsplash.com/photo-1574629810360-7efbbe195018",
+    "https://image-service.onefootball.com/transform?w=336&h=252&dpr=2&image=https%3A%2F%2Ffootballtoday.com%2Fwp-content%2Fuploads%2F2026%2F10%2Fmanchester-united-v-tottenham-hotspur-premier-league-2026-27-2-1000x600.jpg",
   author: "The Binoculars Sports Desk",
   date: "October 10, 2026",
   readTime: "3 min read",
@@ -350,7 +367,7 @@ export const articles = [
   ]
 },
   {
-  id: 12,
+  id: 14,
   slug: "african-football-associations-back-infantino-2026",
   category: "Sports",
   title: "Africa's 54 Football Associations Back Infantino for FIFA Re-election",
@@ -365,7 +382,7 @@ export const articles = [
     "For African football, the key questions include whether investment will improve facilities, youth development, women's football and the competitiveness of national leagues. Support for a candidate does not by itself guarantee those outcomes, making delivery and accountability important measures of progress."
   ],
   image:
-    "https://images.unsplash.com/photo-1522778119026-d647f0596c20",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZLdEqJ6xpLsLVY3hMPomWn1DTWaMrmTalBUywICoq6A&s=10",
   author: "The Binoculars Sports Desk",
   date: "October 07, 2026",
   readTime: "3 min read",
@@ -421,7 +438,7 @@ export const articles = [
     "Abudu hopes the London project will inspire similar cultural destinations in the future. Her ambition is for African and Black cinema to become a familiar part of mainstream cultural life rather than being treated as a niche interest."
   ],
   image:
-    "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLGBtVMM--BBLhieCAueGbBCyN_LJsroVQasDe1m8uVdznNEAqTKiR1GE&s=10",
   author: "The Binoculars Culture Desk",
   date: "October 17, 2026",
   readTime: "3 min read",
@@ -433,19 +450,28 @@ export const articles = [
   ]
 },
   {
-    id: 17,
-    slug: "culture-changing-around-world",
-    category: "Culture",
-    title:
-      "How culture continues to change across generations and communities",
-    excerpt:
-      "Traditions and contemporary ideas continue to influence how communities express themselves.",
-    image:
-      "https://images.unsplash.com/photo-1514525253161-7a46d19cd819",
-    author: "The Binoculars Culture Desk",
-    date: "September 30, 2026",
-    readTime: "5 min read",
-  },
+  id: 17,
+  slug: "duane-keffe-d-davis-sentenced-tupac-shakur-murder-2026",
+  category: "Entertainment",
+  title: "Tupac Shakur Murder Case: Duane Davis Sentenced to 40 Years to Life",
+  excerpt: "Duane “Keffe D” Davis has been sentenced to 40 years to life in prison for orchestrating the 1996 killing of rapper Tupac Shakur in Las Vegas. His defence has indicated plans to appeal.",
+  content: [
+    "Duane “Keffe D” Davis, a former gang leader, was sentenced to 40 years to life in prison on October 13, 2026, for orchestrating the 1996 drive-by shooting that killed hip-hop artist Tupac Shakur in Las Vegas. Reuters reported that Davis, 63, received the sentence after being convicted of first-degree murder in August.",
+    "Shakur was shot on September 7, 1996, while travelling in a vehicle driven by music executive Marion “Suge” Knight. The rapper died six days later at the age of 25. His death became one of the most widely followed unsolved cases in American music history.",
+    "During sentencing, Shakur's younger sister, Sekyiwa Shakur, spoke about her brother's life, his potential and the lasting loss experienced by their family. The case drew renewed attention after Davis was arrested in 2023 and prosecutors used statements he had made publicly and in a memoir as part of their case.",
+    "Davis was convicted of orchestrating the killing, but the identity of the person who fired the fatal shots has not been conclusively established by the conviction. Davis has said he intends to appeal. The sentence marks a major development in a case that has remained deeply significant to hip-hop culture for nearly three decades."
+  ],
+  image: "https://globalnews.ca/wp-content/uploads/2026/10/duane-keffe-d-davis-sentenced-tupac-murder.jpg?quality=65&strip=all",
+  author: "The Binoculars Entertainment Desk",
+  date: "October 13, 2026",
+  readTime: "3 min read",
+  sources: [
+    {
+      name: "Reuters",
+      url: "https://www.reuters.com/legal/litigation/ex-gang-leader-faces-maximum-penalty-life-prison-tupac-shakur-murder-2026-10-13/"
+    }
+  ]
+},
 
   // ENTERTAINMENT
   {
@@ -465,7 +491,7 @@ export const articles = [
     "The long-term impact will depend on whether the company can integrate its businesses, manage its debt and attract audiences in an increasingly competitive entertainment market."
   ],
   image:
-    "https://images.unsplash.com/photo-1485846234645-a62644f84728",
+    "https://variety.com/wp-content/uploads/2026/10/Skydance-Paramount-WBD-Merger.jpg",
   author: "The Binoculars Entertainment Desk",
   date: "October 6, 2026",
   readTime: "3 min read",
@@ -477,19 +503,29 @@ export const articles = [
   ]
 },
   {
-    id: 19,
-    slug: "new-films-and-shows-capture-attention",
-    category: "Entertainment",
-    title:
-      "New films and shows capture attention across global audiences",
-    excerpt:
-      "Audiences continue to discover new stories across screens and streaming platforms.",
-    image:
-      "https://images.unsplash.com/photo-1485846234645-a62644f84728",
-    author: "The Binoculars Culture Desk",
-    date: "September 29, 2026",
-    readTime: "4 min read",
-  },
+  id: 19,
+  slug: "guardian-launches-the-close-up-culture-show-2026",
+  category: "Culture",
+  title: "The Guardian Announces New Culture Show Exploring Arts and Pop Culture",
+  excerpt: "The Guardian has announced The Close Up, a new video and audio culture show examining major arts events, entertainment and wider cultural trends.",
+  content: [
+    "The Guardian has announced The Close Up, a new culture programme hosted by journalist Carys Afoko and senior culture writer Lanre Bakare. The show is scheduled to debut in November 2026 across The Guardian's platform, YouTube and Spotify.",
+    "The twice-weekly programme is expected to explore cultural conversations ranging from major literary prizes such as the Booker Prize to popular television, celebrity culture and events including the Met Gala.",
+    "The programme is the first release from Guardian Studios, a creative initiative focused on video-led journalism and expanding the publication's digital formats. The launch reflects the continuing efforts of established news organisations to reach audiences through audio and video as well as traditional articles.",
+    "The show's success will depend on its ability to offer informed cultural discussion while attracting audiences across different platforms. Its announced launch is a planned development; audience figures and reception are not yet available."
+  ],
+  image: "https://i.guim.co.uk/img/media/41b9a6cc08f38f5f9fb67adc3de572d3b4b6f2ef/0_0_1800_1080/master/1800.jpg?width=700&dpr=2&s=none&crop=none",
+  author: "The Binoculars Culture Desk",
+  date: "October 16, 2026",
+  readTime: "3 min read",
+  sources: [
+    {
+      name: "The Guardian",
+      url: "https://www.theguardian.com/gnm-press-office/2026/oct/16/introducing-the-close-up-the-new-culture-show-from-guardian-studios-hosted-by-carys-afoko-and-lanre-bakare"
+    }
+  ]
+},
+
     // SCIENCE
   {
   id: 20,
